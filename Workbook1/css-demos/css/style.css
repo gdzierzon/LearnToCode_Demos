@@ -1,0 +1,20 @@
+div {
+    /* border: solid 1px black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div > img {
+    height: 50px;
+}
+ul{
+    /* border: solid 1px blue; */
+    display: flex;
+    gap: 5px;
+    margin: 2px 10px;
+    padding: 0;
+}
+li{
+    /* border: solid 1px red; */
+    display: inline-block;
+}
