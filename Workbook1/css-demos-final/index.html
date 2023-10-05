@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+
+		<style>
+			body {
+				font-family:Verdana, Geneva, Tahoma, sans-serif;
+			}
+
+			a {
+				color: maroon;
+				font-weight: 900;
+			}
+
+			a:hover {
+				color: red;
+			}
+
+			#contact-link {
+				color: orangered;
+			}
+
+			.special {
+				color: rgb(159, 159, 159);
+			}
+
+			.special > a {
+				color: blueviolet;
+			}
+		</style>
+	</head>
+	<body>
+		<nav>
+			<h1>company name</h1>
+
+			<a href="#">home</a>
+			<a href="#">products</a>
+			<a href="#">about us</a>
+			<a href="#">contact us</a>
+		</nav>
+
+		<main>
+			<section>
+				<header>Section 1</header>
+				<img
+					src="images/puppy.jpg"
+					alt=""
+				/>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+					quod necessitatibus accusamus veritatis, vero odio iusto esse
+					voluptatum error magnam corporis accusantium dolor minima numquam
+					voluptatibus ad rem, tempore eaque!
+					
+					<a href="#">link in a non-special paragraph</a>
+				</p>
+			</section>
+
+			<section>
+				<header>Section 2</header>
+				<p class="special">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+					maiores! Adipisci autem similique possimus, ut, porro consequatur
+					tempore minima numquam molestiae soluta itaque veritatis, dolores sint
+					non aperiam impedit eius?
+					<a class="special-link" href="#">link in a special paragraph</a>
+				</p>
+			</section>
+
+			<section>
+				<header>Section 3</header>
+				<div class="special">
+					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus,
+					maiores! Adipisci autem similique possimus, ut, porro consequatur
+					tempore minima numquam molestiae soluta itaque veritatis, dolores sint
+					non aperiam impedit eius?
+					<a href="#">link in a special paragraph</a>
+
+					<h4><a href="#">regular link bolded</a></h4>
+				</div>
+				<a id="contact-link" href="#">Contact Us</a>
+			</section>
+		</main>
+	</body>
+</html>
