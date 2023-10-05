@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+nav {
+
+    /* freeze nav bar to top */
+    position:fixed;
+    width: 100vw;
+    top: 0; /* move nav bar to top*/
+    left: 0px;
+
+    /* creat flex box */
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 10px 0 10px 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+nav img {
+    height: 50px;
+}
+
+
+ul {
+	display: flex;
+	flex-direction: row;
+	padding: 0 20px 0 0 ;
+    margin-right: 10px;
+
+	gap: 25px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+li {
+	display: block;
+}
+
