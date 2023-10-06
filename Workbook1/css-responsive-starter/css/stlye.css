@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+	margin: 0;
+	font-family: Ubuntu, sans-serif;
+}
+
+.navbar {
+	/* creat flex box */
+	display: flex;
+
+	justify-content: space-between;
+
+	padding: 10px 0 10px 10px;
+	background-color: rgb(219, 219, 219);
+}
+
+.navbar-logo {
+	height: 50px;
+}
+
+.nav-item-container {
+	display: flex;
+	flex-direction: row;
+	padding: 0 0 0 0;
+	margin-right: 10px;
+
+	gap: 25px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-item {
+	display: block;
+}
+
+.container {
+	width: 100%;
+	padding: 0 10%;
+}
+
+.row {
+	display: flex;
+	gap: 1.5em;
+}
+
+.col {
+	flex-basis: 100%;
+	flex-grow: 1;
+}
