@@ -7,6 +7,7 @@
   <title>Bootstrap Demo</title>
 
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -25,10 +26,10 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="buttons.html">Buttons</a>
+            <a class="nav-link active" href="buttons.html">Buttons</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="text.html">Text</a>
+            <a class="nav-link" href="text.html">Text</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="tables.html">Tables</a>
@@ -54,8 +55,10 @@
   </nav>
 
 
-  <main>
-
+  <main class="container mt-5">
+    <button class="btn btn-outline-danger">Submit</button>
+    <button class="btn btn-warning">warning button</button>
+    <button class="btn btn-link link-button">link button</button>
   </main>
 
   <script src="scripts/bootstrap.bundle.js"></script>
