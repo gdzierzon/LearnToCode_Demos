@@ -31,16 +31,20 @@ If it is **NOT** up to date you must stage and commit changes.
 
 _Don't create a branch when you have uncommitted changes._
 ```bash
+# 1. create a new Feature branch
 git branch TaskName
 git checkout TaskName # this switches branches
 
-# make your code changes
+# 2. make your code changes and commit
 git add -A # stage your changes
 git commit -m "your message" # commits your changes
 
-# merge changes into main
+# 3. merge changes into main and push
 git checkout main
 git merge TaskName
 git push # pushes your to GitHub
+
+# 4. delete the Feature Branch
+git branch delete TaskName
 
 ```
