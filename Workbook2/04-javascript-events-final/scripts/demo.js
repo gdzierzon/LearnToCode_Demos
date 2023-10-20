@@ -3,13 +3,8 @@ window.onload = init;
 
 function init() {
 
-    let greetBtn = document.getElementById("greetBtn");
-    greetBtn.onclick = selectDayOfWeek;
-}
-
-function onGreetUserBtnClicked()
-{
-    
+    let submitButton = document.getElementById("submitButton");
+    submitButton.onclick = selectDayOfWeek;
 }
 
 
@@ -18,7 +13,7 @@ function selectDayOfWeek() {
     let dayNumberInput = document.getElementById("dayNumber");
     let dayTypeElement = document.getElementById("dayType");
 
-    let dayOfWeek = dayNumberInput.value;
+    let dayOfWeek = +dayNumberInput.value;
     let dayOfWeekType = "";
 
     console.log(dayOfWeek);
@@ -42,6 +37,5 @@ function selectDayOfWeek() {
             break;
     }
 
-    // dayTypeElement.innerText = dayOfWeekType;
-    dayTypeElement.innerHTML = "<div style='color: red;'>" + dayOfWeek + "</div>"
+    dayTypeElement.innerText = dayOfWeekType;
 }
