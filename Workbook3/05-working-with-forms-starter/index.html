@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/united/bootstrap.min.css"
         integrity="sha384-JW3PJkbqVWtBhuV/gsuyVVt3m/ecRJjwXC3gCXlTzZZV+zIEEl6AnryAriT7GWYm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="scripts/pizza-shop.js"></script>
 </head>
 
 <body>
@@ -35,6 +37,14 @@
                 <div class="form-group">
                     <label for="firstNameInput" class="form-label">First Name</label>
                     <input type="text" class="form-control" id="firstNameInput" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <label for="orderDateInput" class="form-label">Pickup Date</label>
+                    <input type="date" class="form-control" id="orderDateInput">
+                </div>
+                <div class="form-group">
+                    <label for="orderTimeInput" class="form-label">Pickup Time</label>
+                    <input type="time" class="form-control" id="orderTimeInput">
                 </div>
                 <div class="form-group">
                     <label for="orderTypeSelect" class="form-label">Order Type</label>
@@ -115,7 +125,7 @@
                     </div>
                 </fieldset>
 
-                <button class="btn btn-secondary">Order</button>
+                <button class="btn btn-secondary" id="orderButton">Order</button>
             </fieldset>
         </section>
 
@@ -134,35 +144,35 @@
                 </thead>
                 <tr>
                     <td class="w-75 text-end pr-5">Size: <span id="sizeDisplay">Medium</span></td>
-                    <td>11.99</td>
+                    <td id="sizePriceCell">11.99</td>
                 </tr>
-                <tr id="extraCheeseRow">
+                <tr id="extraCheeseRow" style="display: none;">
                     <td class="w-75 text-end pr-5">Extra Cheese</td>
                     <td>1.00</td>
                 </tr>
-                <tr id="pepperoniRow">
+                <tr id="pepperoniRow" style="display: none;">
                     <td class="w-75 text-end pr-5">Pepperoni</td>
                     <td>1.00</td>
                 </tr>
-                <tr id="hamRow">
+                <tr id="hamRow" style="display: none;">
                     <td class="w-75 text-end pr-5">Ham</td>
                     <td>1.00</td>
                 </tr>
-                <tr id="sausageRow">
+                <tr id="sausageRow" style="display: none;">
                     <td class="w-75 text-end pr-5">Sausage</td>
                     <td>1.00</td>
                 </tr>
-                <tr id="chickenRow">
+                <tr id="chickenRow" style="display: none;">
                     <td class="w-75 text-end pr-5">Chicken</td>
                     <td>1.00</td>
                 </tr>
-                <tr id="pineappleRow">
+                <tr id="pineappleRow" style="display: none;">
                     <td class="w-75 text-end pr-5">Pineapple</td>
                     <td>1.00</td>
                 </tr>
                 <tr class="table-warning">
                     <th class="w-75 text-end pr-5">Total</th>
-                    <th id="totalPriceDisplay">17.99</th>
+                    <th id="totalPriceDisplay">11.99</th>
                 </tr>
             </table>
         </section>
