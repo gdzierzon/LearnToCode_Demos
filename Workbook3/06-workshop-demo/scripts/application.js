@@ -1,17 +1,17 @@
 window.onload = function() {
-    // const button = document.getElementById("submitButton");
+    const button = document.getElementById("submitButton");
 
-    // button.onclick = submitForm;
-    const theForm = document.getElementById("theForm");
+    button.onclick = submitForm;
+    // const theForm = document.getElementById("theForm");
 
-    theForm.onsubmit = submitForm;
+    // theForm.onsubmit = submitForm;
 
 }
 
 function submitForm(event) {
 
     // stop the default form submission
-    event.preventDefault();
+    // event.preventDefault();
 
     console.log(event);
     console.log("form submitted")

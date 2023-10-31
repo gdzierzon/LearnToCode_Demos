@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pizza Shop</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/united/bootstrap.min.css"
+        integrity="sha384-JW3PJkbqVWtBhuV/gsuyVVt3m/ecRJjwXC3gCXlTzZZV+zIEEl6AnryAriT7GWYm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="scripts/pizza-shop.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary text-light" data-bs-theme="dark">
+        <div class="container-fluid">
+            <h1>The Pizza Shop</h1>
+        </div>
+    </nav>
+
+    <main class="container m-5">
+        <section>
+            <fieldset>
+                <h1>Order Form</h1>
+
+                <div class="form-group">
+                    <label for="emailInput" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
+                        placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="firstNameInput" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="firstNameInput" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <label for="orderDateInput" class="form-label">Pickup Date</label>
+                    <input type="date" class="form-control" id="orderDateInput">
+                </div>
+                <div class="form-group">
+                    <label for="orderTimeInput" class="form-label">Pickup Time</label>
+                    <input type="time" class="form-control" id="orderTimeInput">
+                </div>
+                <div class="form-group">
+                    <label for="orderTypeSelect" class="form-label">Order Type</label>
+                    <select class="form-select" id="orderTypeSelect">
+                        <option>Pickup</option>
+                        <option>Delivery</option>
+                    </select>
+                </div>
+
+                <fieldset class="form-group">
+                    <legend>Size</legend>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sizeRadio" id="sizeSmall" value="small">
+                        <label class="form-check-label" for="sizeSmall">
+                            Small — 10" - $9.99
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sizeRadio" id="sizeMedium" value="medium"
+                            checked>
+                        <label class="form-check-label" for="sizeMedium">
+                            Medium - 12" - $11.99
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sizeRadio" id="sizeLarge" value="large">
+                        <label class="form-check-label" for="sizeLarge">
+                            Large - 14" - $13.99
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="sizeRadio" id="sizeFamily" value="family">
+                        <label class="form-check-label" for="sizeFamily">
+                            Family - 16" - $15.99
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form-group">
+                    <legend class="mt-4">Toppings</legend>
+                    <div class="row pl-3">
+                        <div class="form-check col-lg-4 col-md-6 col-sm-12">
+                            <input class="form-check-input" type="checkbox" value="" id="toppingCheese">
+                            <label class="form-check-label" for="toppingCheese">
+                                Extra Cheese - $1.00
+                            </label>
+                        </div>
+                        <div class="form-check col-lg-4 col-md-6 col-sm-12">
+                            <input class="form-check-input" type="checkbox" value="" id="toppingPepperoni">
+                            <label class="form-check-label" for="toppingPepperoni">
+                                Pepperoni - $1.00
+                            </label>
+                        </div>
+                        <div class="form-check col-lg-4 col-md-6 col-sm-12">
+                            <input class="form-check-input" type="checkbox" value="" id="toppingHam">
+                            <label class="form-check-label" for="toppingHam">
+                                Ham - $1.00
+                            </label>
+                        </div>
+                        <div class="form-check col-lg-4 col-md-6 col-sm-12">
+                            <input class="form-check-input" type="checkbox" value="" id="toppingSausage">
+                            <label class="form-check-label" for="toppingSausage">
+                                Sausage - $1.00
+                            </label>
+                        </div>
+                        <div class="form-check col-lg-4 col-md-6 col-sm-12">
+                            <input class="form-check-input" type="checkbox" value="" id="toppingChicken">
+                            <label class="form-check-label" for="toppingChicken">
+                                Chicken - $1.00
+                            </label>
+                        </div>
+                        <div class="form-check col-lg-4 col-md-6 col-sm-12">
+                            <input class="form-check-input" type="checkbox" value="" id="toppingPineapple">
+                            <label class="form-check-label" for="toppingPineapple">
+                                Pineapple - $1.00
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <button class="btn btn-secondary" id="orderButton">Order</button>
+            </fieldset>
+        </section>
+
+        <section class="mt-4 pt-4 border-top">
+            <h1>Order Details</h1>
+            <div>Name: <span id="nameDisplay"></span></div>
+            <div>Email: <span id="emailDisplay"></span></div>
+            <div>Order Date: <span id="orderDateDisplay"></span></div>
+            <div>Order Type: <span id="orderTypeDisplay"></span></div>
+            <table class="table table-hover mt-3">
+                <thead class="thead-light">
+                    <tr>
+                        <th class="bg-primary text-light">Option</th>
+                        <th class="bg-primary text-light">Cost</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td class="w-75 text-end pr-5">Size: <span id="sizeDisplay">Medium</span></td>
+                    <td id="sizePriceCell">11.99</td>
+                </tr>
+                <tr id="extraCheeseRow" style="display: none;">
+                    <td class="w-75 text-end pr-5">Extra Cheese</td>
+                    <td>1.00</td>
+                </tr>
+                <tr id="pepperoniRow" style="display: none;">
+                    <td class="w-75 text-end pr-5">Pepperoni</td>
+                    <td>1.00</td>
+                </tr>
+                <tr id="hamRow" style="display: none;">
+                    <td class="w-75 text-end pr-5">Ham</td>
+                    <td>1.00</td>
+                </tr>
+                <tr id="sausageRow" style="display: none;">
+                    <td class="w-75 text-end pr-5">Sausage</td>
+                    <td>1.00</td>
+                </tr>
+                <tr id="chickenRow" style="display: none;">
+                    <td class="w-75 text-end pr-5">Chicken</td>
+                    <td>1.00</td>
+                </tr>
+                <tr id="pineappleRow" style="display: none;">
+                    <td class="w-75 text-end pr-5">Pineapple</td>
+                    <td>1.00</td>
+                </tr>
+                <tr class="table-warning">
+                    <th class="w-75 text-end pr-5">Total</th>
+                    <th id="totalPriceDisplay">11.99</th>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer class="container-fluid p-4 bg-light">&copy; Copyright - The Pizza Shop - 2023</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
