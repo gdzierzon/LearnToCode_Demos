@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="scripts/reservation.js"></script>
+</head>
+<body>
+    <main>
+        <form action="" id="reservationForm">
+            <div>
+                <input type="date" name="reservationDate" id="reservationDate">
+            </div>
+            <fieldset>
+                <legend>Room Type</legend>
+                <ul>
+                    <li><input type="radio" name="roomTypeRadio" id="roomTypeKing" checked>King</li>
+                    <li><input type="radio" name="roomTypeRadio" id="roomTypeQueen">Queen</li>
+                    <li><input type="radio" name="roomTypeRadio" id="roomTypeSuite">Suite</li>
+                </ul>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Discount</legend>
+                <ul>
+                    <li><input type="radio" name="discountRadio" id="discountNone" checked>None</li>
+                    <li><input type="radio" name="discountRadio" id="discountMilitary">Military - 20%</li>
+                    <li><input type="radio" name="discountRadio" id="discountSenior">Senior / AARP - 10%</li>
+                </ul>
+            </fieldset>
+
+            <button type="submit">Book Reservation</button>
+        </form>
+    </main>
+    
+</body>
+</html>
