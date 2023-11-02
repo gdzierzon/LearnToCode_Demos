@@ -102,5 +102,3 @@ function populateStates() {
         statesList.appendChild(option)
     }
 }
-
-window.onload = init;
