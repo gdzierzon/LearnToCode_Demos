@@ -44,7 +44,8 @@ function filterMenu(category){
 }
 
 function selectedMenuChanged(event){
-    const menuList = event.target
+    // const menuList = event.target
+    const menuList = document.getElementById("menuList");
     const itemsList = document.getElementById("itemsList");
     itemsList.innerHTML = "";
 
