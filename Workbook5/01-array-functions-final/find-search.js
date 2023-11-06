@@ -9,20 +9,12 @@ let menuItems = [
 
 // this function MUST return true or false
 function isItATaco(currentMenuItem) {
-    return currentMenuItem.item.toLowerCase() == "tacoss";
+    return currentMenuItem.item.toLowerCase() == "tacos";
 }
 
 // find() returns a SINGLE object if one is found
 // returns UNDEFINED if no matches are found
 let tacos = menuItems.find(isItATaco);
-
-// // THERE IS NO i
-// for(let menuItem of menuItems) {
-//     if(isItATaco(menuItem)) {
-//         tacos = menuItem;
-//         break;
-//     }
-// }
 
 console.table(tacos);
 

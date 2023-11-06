@@ -7,20 +7,22 @@ let menuItems = [
     {id: 5, item: "Coke", category: "Drink", price: 2.29},
 ];
 
-function isItADrink(currentMenuItem) {
-    return currentMenuItem.category == "Drink";
+function printMenuItem(currentMenuItem) {
+
+    console.log("");
+    console.log("Name:     " + currentMenuItem.item);
+    console.log("Category: " + currentMenuItem.category);
+    console.log("Price:    $ " + currentMenuItem.price);
 }
 
-// .filter wil ALWAYS return an array
-// possibly an EMPTY array
-let drinks = menuItems.filter(isItADrink);
+menuItems.forEach(printMenuItem);
+
 
 // for(let menuItem of menuItems) {
-//     if(isItADrink(menuItem)) {
-//         drinks.push(menuItem);
-//     }
+
+//     printMenuItem(menuItem);
+
 // }
 
-console.table(drinks)
 
 
