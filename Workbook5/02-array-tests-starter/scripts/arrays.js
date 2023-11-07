@@ -14,7 +14,6 @@
  */
 function calculateSum(numbers) {
 
-    return numbers.reduce((number, current) => current + number, 0);
 }
 
 /**
@@ -24,7 +23,6 @@ function calculateSum(numbers) {
  * @returns Number
  */
 function calculateMin(numbers) {
-    return numbers.reduce((number, current) => number < current ? number : current)
 }
 
 /**
@@ -34,7 +32,6 @@ function calculateMin(numbers) {
  * @returns Number
  */
 function calculateMax(numbers) {
-    return numbers.reduce((number, current) => number > current ? number : current)
 }
 
 /**
@@ -44,9 +41,6 @@ function calculateMax(numbers) {
  * @returns Number
  */
 function calculateAverage(numbers) {
-    const sum = numbers.reduce((number, current) => number + current)
-
-    return +(sum / numbers.length).toFixed(2);
 }
 
 
@@ -85,18 +79,15 @@ function calculateAverage(numbers) {
  */
 function findMenuItemById(menuItems, id) {
 
-    return menuItems.find(item => item.id == id);
 
 }
 
 
 function getEntrees(menuItems) {
 
-    return menuItems.filter(item => item.category == "Entree");
 
 }
 
 function getMenuItemNames(menuItems) {
-    return menuItems.map(item => item.name);
 }
 
