@@ -5,19 +5,22 @@ let teamMembers = [
     ["Eloise", "Robert"]
 ];
 
-console.table(teamMembers)
+// console.table(teamMembers)
 
-for(let person of teamMembers) {
-    console.log(person);
-}
 
-console.log("loop through all cells");
-console.log("");
+// for(let row of teamMembers) {
+//     console.log(row);
+// }
+
+// console.log("loop through all cells");
+// console.log("");
 
 for(let rowNumber = 0; rowNumber < teamMembers.length; rowNumber++) {
+
     let row = teamMembers[rowNumber];
     console.log("Team " + (rowNumber + 1));
     console.log("----------");
+    // console.log(row);
 
     //inner loop
     for(let colNumber = 0; colNumber < row.length; colNumber++){
@@ -26,4 +29,11 @@ for(let rowNumber = 0; rowNumber < teamMembers.length; rowNumber++) {
 
     // add extra line
     console.log("");
+}
+
+for(let i = 0 ; i < teamMembers.length; i ++) {
+
+    for(let j = 0; j < teamMembers[i].length ; j++ ){
+        
+    }
 }
