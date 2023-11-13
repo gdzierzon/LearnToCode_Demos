@@ -96,3 +96,28 @@ let people = [{
   ipAddress: "19.60.1.101"
 }
 ];
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const table = document.getElementById("peopleTable");
+
+
+  people.forEach(person => {
+
+    const row = table.insertRow(-1)
+    const idCell = row.insertCell(-1)
+    idCell.innerText = person.id
+    const firstNameCell = row.insertCell(-1);
+    firstNameCell.innerText = person.firstName;
+    const lastNameCell = row.insertCell(-1);
+    lastNameCell.innerText = person.lastName;
+    const emailCell = row.insertCell(-1);
+    emailCell.innerText = person.email;
+    const ipAddressCell = row.insertCell(-1);
+    ipAddressCell.innerText = person.ipAddress;
+  })
+
+
+
+
+})
