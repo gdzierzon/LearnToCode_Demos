@@ -16,6 +16,8 @@ function displayProducts(products) {
         const productDiv = document.createElement("div");
         productDiv.classList.add("product") ;
         productDiv.id = "product-" + product.productId ;
+        // add product to the container
+        productsContainer.appendChild(productDiv);
 
         // create the product info div 
         const productInfoDiv = document.createElement("div");
@@ -59,7 +61,5 @@ function displayProducts(products) {
         cartButton.innerText = "Add to Cart";
         cartButtonDiv.appendChild(cartButton)
 
-        // add product to the container
-        productsContainer.appendChild(productDiv);
     });
 }
