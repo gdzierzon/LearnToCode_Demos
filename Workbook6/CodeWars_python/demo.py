@@ -1,5 +1,5 @@
 def sum_mul(n, m):
-    if n  is None or m is None:
+    if n is None or m is None:
         return 'INVALID'
     if n <= 0 or m <= 0:
         return 'INVALID'
