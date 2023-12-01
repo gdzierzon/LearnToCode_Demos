@@ -1,0 +1,12 @@
+<order>
+    <lineItem>
+        <product>Ear Buds</product>
+        <price>99.99</price>
+        <quantity>1</quantity>
+    </lineItem>
+    <lineItem>
+        <product>screen protector</product>
+        <price>9.99</price>
+        <quantity>12</quantity>
+    </lineItem>
+</order>
