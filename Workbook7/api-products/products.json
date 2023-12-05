@@ -1,7 +1,7 @@
 {
   "products": [
     {
-        "productId": 1,
+        "id": 1,
         "name": "Smartphone",
         "price": 499.99,
         "category": "Electronics",
@@ -12,7 +12,7 @@
         "featured": false
     },
     {
-        "productId": 2,
+        "id": 2,
         "name": "Laptop",
         "price": 899.99,
         "category": "Electronics",
@@ -23,7 +23,7 @@
         "featured": false
     },
     {
-        "productId": 3,
+        "id": 3,
         "name": "Headphones",
         "price": 99.99,
         "category": "Electronics",
@@ -34,7 +34,7 @@
         "featured": true
     },
     {
-        "productId": 4,
+        "id": 4,
         "name": "Smart TV",
         "price": 1499.99,
         "category": "Electronics",
@@ -45,7 +45,7 @@
         "featured": false
     },
     {
-        "productId": 5,
+        "id": 5,
         "name": "Digital Camera",
         "price": 599.99,
         "category": "Electronics",
@@ -56,7 +56,7 @@
         "featured": true
     },
     {
-        "productId": 6,
+        "id": 6,
         "name": "Tablet",
         "price": 349.99,
         "category": "Electronics",
@@ -67,7 +67,7 @@
         "featured": false
     },
     {
-        "productId": 7,
+        "id": 7,
         "name": "Gaming Console",
         "price": 399.99,
         "category": "Electronics",
@@ -78,7 +78,7 @@
         "featured": false
     },
     {
-        "productId": 8,
+        "id": 8,
         "name": "Wireless Earbuds",
         "price": 79.99,
         "category": "Electronics",
@@ -89,7 +89,7 @@
         "featured": false
     },
     {
-        "productId": 9,
+        "id": 9,
         "name": "Smart Watch",
         "price": 199.99,
         "category": "Electronics",
@@ -100,7 +100,7 @@
         "featured": true
     },
     {
-        "productId": 10,
+        "id": 10,
         "name": "Bluetooth Speaker",
         "price": 129.99,
         "category": "Electronics",
@@ -111,7 +111,7 @@
         "featured": false
     },
     {
-        "productId": 11,
+        "id": 11,
         "name": "Drones",
         "price": 299.99,
         "category": "Electronics",
@@ -122,7 +122,7 @@
         "featured": false
     },
     {
-        "productId": 12,
+        "id": 12,
         "name": "Printer",
         "price": 149.99,
         "category": "Electronics",
@@ -133,7 +133,7 @@
         "featured": false
     },
     {
-        "productId": 13,
+        "id": 13,
         "name": "Fitness Tracker",
         "price": 89.99,
         "category": "Electronics",
@@ -144,7 +144,7 @@
         "featured": true
     },
     {
-        "productId": 14,
+        "id": 14,
         "name": "Wireless Router",
         "price": 79.99,
         "category": "Electronics",
@@ -155,7 +155,7 @@
         "featured": false
     },
     {
-        "productId": 15,
+        "id": 15,
         "name": "External Hard Drive",
         "price": 129.99,
         "category": "Electronics",
@@ -166,7 +166,7 @@
         "featured": true
     },
     {
-        "productId": 16,
+        "id": 16,
         "name": "Gaming Keyboard",
         "price": 79.99,
         "category": "Electronics",
@@ -177,7 +177,7 @@
         "featured": true
     },
     {
-        "productId": 17,
+        "id": 17,
         "name": "Virtual Reality Headset",
         "price": 299.99,
         "category": "Electronics",
@@ -188,7 +188,7 @@
         "featured": false
     },
     {
-        "productId": 18,
+        "id": 18,
         "name": "Wireless Mouse",
         "price": 49.99,
         "category": "Electronics",
@@ -199,7 +199,7 @@
         "featured": true
     },
     {
-        "productId": 19,
+        "id": 19,
         "name": "Smart Home Hub",
         "price": 179.99,
         "category": "Electronics",
@@ -210,7 +210,7 @@
         "featured": false
     },
     {
-        "productId": 20,
+        "id": 20,
         "name": "Portable Charger",
         "price": 39.99,
         "category": "Electronics",
@@ -221,7 +221,7 @@
         "featured": false
     },
     {
-        "productId": 21,
+        "id": 21,
         "name": "Men's T-Shirt",
         "price": 29.99,
         "category": "Fashion",
@@ -232,7 +232,7 @@
         "featured": true
     },
     {
-        "productId": 22,
+        "id": 22,
         "name": "Men's Jeans",
         "price": 59.99,
         "category": "Fashion",
@@ -243,7 +243,7 @@
         "featured": false
     },
     {
-        "productId": 23,
+        "id": 23,
         "name": "Men's Dress Shirt",
         "price": 49.99,
         "category": "Fashion",
@@ -254,7 +254,7 @@
         "featured": false
     },
     {
-        "productId": 24,
+        "id": 24,
         "name": "Men's Hoodie",
         "price": 39.99,
         "category": "Fashion",
@@ -265,7 +265,7 @@
         "featured": true
     },
     {
-        "productId": 25,
+        "id": 25,
         "name": "Men's Suit",
         "price": 199.99,
         "category": "Fashion",
@@ -276,7 +276,7 @@
         "featured": false
     },
     {
-        "productId": 26,
+        "id": 26,
         "name": "Men's Shorts",
         "price": 34.99,
         "category": "Fashion",
@@ -287,7 +287,7 @@
         "featured": false
     },
     {
-        "productId": 27,
+        "id": 27,
         "name": "Men's Sweater",
         "price": 59.99,
         "category": "Fashion",
@@ -298,7 +298,7 @@
         "featured": false
     },
     {
-        "productId": 28,
+        "id": 28,
         "name": "Men's Polo Shirt",
         "price": 39.99,
         "category": "Fashion",
@@ -309,7 +309,7 @@
         "featured": true
     },
     {
-        "productId": 29,
+        "id": 29,
         "name": "Men's Jacket",
         "price": 79.99,
         "category": "Fashion",
@@ -320,7 +320,7 @@
         "featured": true
     },
     {
-        "productId": 30,
+        "id": 30,
         "name": "Men's Dress Shoes",
         "price": 89.99,
         "category": "Fashion",
@@ -331,7 +331,7 @@
         "featured": false
     },
     {
-        "productId": 31,
+        "id": 31,
         "name": "Men's Sneakers",
         "price": 69.99,
         "category": "Fashion",
@@ -342,7 +342,7 @@
         "featured": true
     },
     {
-        "productId": 32,
+        "id": 32,
         "name": "Men's Watch",
         "price": 149.99,
         "category": "Fashion",
@@ -353,7 +353,7 @@
         "featured": true
     },
     {
-        "productId": 33,
+        "id": 33,
         "name": "Men's Belt",
         "price": 29.99,
         "category": "Fashion",
@@ -364,7 +364,7 @@
         "featured": false
     },
     {
-        "productId": 34,
+        "id": 34,
         "name": "Men's Socks",
         "price": 9.99,
         "category": "Fashion",
@@ -375,7 +375,7 @@
         "featured": true
     },
     {
-        "productId": 35,
+        "id": 35,
         "name": "Men's Swim Trunks",
         "price": 34.99,
         "category": "Fashion",
@@ -386,7 +386,7 @@
         "featured": false
     },
     {
-        "productId": 36,
+        "id": 36,
         "name": "Men's Winter Coat",
         "price": 149.99,
         "category": "Fashion",
@@ -397,7 +397,7 @@
         "featured": false
     },
     {
-        "productId": 37,
+        "id": 37,
         "name": "Men's Hat",
         "price": 24.99,
         "category": "Fashion",
@@ -408,7 +408,7 @@
         "featured": true
     },
     {
-        "productId": 38,
+        "id": 38,
         "name": "Men's Tie",
         "price": 19.99,
         "category": "Fashion",
@@ -419,7 +419,7 @@
         "featured": false
     },
     {
-        "productId": 39,
+        "id": 39,
         "name": "Men's Dress Pants",
         "price": 49.99,
         "category": "Fashion",
@@ -430,7 +430,7 @@
         "featured": false
     },
     {
-        "productId": 40,
+        "id": 40,
         "name": "Men's Casual Shirt",
         "price": 39.99,
         "category": "Fashion",
@@ -441,7 +441,7 @@
         "featured": true
     },
     {
-        "productId": 41,
+        "id": 41,
         "name": "Women's Dress",
         "price": 79.99,
         "category": "Fashion",
@@ -452,7 +452,7 @@
         "featured": false
     },
     {
-        "productId": 42,
+        "id": 42,
         "name": "Women's Jeans",
         "price": 69.99,
         "category": "Fashion",
@@ -463,7 +463,7 @@
         "featured": true
     },
     {
-        "productId": 43,
+        "id": 43,
         "name": "Women's Blouse",
         "price": 49.99,
         "category": "Fashion",
@@ -474,7 +474,7 @@
         "featured": false
     },
     {
-        "productId": 44,
+        "id": 44,
         "name": "Women's Sweater",
         "price": 59.99,
         "category": "Fashion",
@@ -485,7 +485,7 @@
         "featured": true
     },
     {
-        "productId": 45,
+        "id": 45,
         "name": "Women's Skirt",
         "price": 39.99,
         "category": "Fashion",
@@ -496,7 +496,7 @@
         "featured": false
     },
     {
-        "productId": 46,
+        "id": 46,
         "name": "Women's Shorts",
         "price": 34.99,
         "category": "Fashion",
@@ -507,7 +507,7 @@
         "featured": true
     },
     {
-        "productId": 47,
+        "id": 47,
         "name": "Women's Jumpsuit",
         "price": 89.99,
         "category": "Fashion",
@@ -518,7 +518,7 @@
         "featured": false
     },
     {
-        "productId": 48,
+        "id": 48,
         "name": "Women's T-Shirt",
         "price": 29.99,
         "category": "Fashion",
@@ -529,7 +529,7 @@
         "featured": false
     },
     {
-        "productId": 49,
+        "id": 49,
         "name": "Women's Blazer",
         "price": 89.99,
         "category": "Fashion",
@@ -540,7 +540,7 @@
         "featured": true
     },
     {
-        "productId": 50,
+        "id": 50,
         "name": "Women's Activewear Set",
         "price": 79.99,
         "category": "Fashion",
@@ -551,7 +551,7 @@
         "featured": false
     },
     {
-        "productId": 51,
+        "id": 51,
         "name": "Women's Swimwear",
         "price": 59.99,
         "category": "Fashion",
@@ -562,7 +562,7 @@
         "featured": false
     },
     {
-        "productId": 52,
+        "id": 52,
         "name": "Women's Shoes",
         "price": 79.99,
         "category": "Fashion",
@@ -573,7 +573,7 @@
         "featured": true
     },
     {
-        "productId": 53,
+        "id": 53,
         "name": "Women's Hat",
         "price": 29.99,
         "category": "Fashion",
@@ -584,7 +584,7 @@
         "featured": true
     },
     {
-        "productId": 54,
+        "id": 54,
         "name": "Women's Socks",
         "price": 9.99,
         "category": "Fashion",
@@ -595,7 +595,7 @@
         "featured": true
     },
     {
-        "productId": 55,
+        "id": 55,
         "name": "Women's Winter Coat",
         "price": 149.99,
         "category": "Fashion",
@@ -606,7 +606,7 @@
         "featured": false
     },
     {
-        "productId": 56,
+        "id": 56,
         "name": "Women's Scarf",
         "price": 24.99,
         "category": "Fashion",
@@ -617,7 +617,7 @@
         "featured": false
     },
     {
-        "productId": 57,
+        "id": 57,
         "name": "Women's Formal Gown",
         "price": 199.99,
         "category": "Fashion",
@@ -628,7 +628,7 @@
         "featured": true
     },
     {
-        "productId": 58,
+        "id": 58,
         "name": "Cookware Set",
         "price": 149.99,
         "category": "Home & Kitchen",
@@ -639,7 +639,7 @@
         "featured": true
     },
     {
-        "productId": 59,
+        "id": 59,
         "name": "Coffee Maker",
         "price": 79.99,
         "category": "Home & Kitchen",
@@ -650,7 +650,7 @@
         "featured": false
     },
     {
-        "productId": 60,
+        "id": 60,
         "name": "Kitchen Knife Set",
         "price": 59.99,
         "category": "Home & Kitchen",
@@ -661,7 +661,7 @@
         "featured": true
     },
     {
-        "productId": 61,
+        "id": 61,
         "name": "Food Processor",
         "price": 99.99,
         "category": "Home & Kitchen",
@@ -672,7 +672,7 @@
         "featured": false
     },
     {
-        "productId": 62,
+        "id": 62,
         "name": "Blender",
         "price": 49.99,
         "category": "Home & Kitchen",
@@ -683,7 +683,7 @@
         "featured": true
     },
     {
-        "productId": 63,
+        "id": 63,
         "name": "Air Fryer",
         "price": 89.99,
         "category": "Home & Kitchen",
@@ -694,7 +694,7 @@
         "featured": false
     },
     {
-        "productId": 64,
+        "id": 64,
         "name": "Toaster",
         "price": 39.99,
         "category": "Home & Kitchen",
@@ -705,7 +705,7 @@
         "featured": true
     },
     {
-        "productId": 65,
+        "id": 65,
         "name": "Slow Cooker",
         "price": 69.99,
         "category": "Home & Kitchen",
@@ -716,7 +716,7 @@
         "featured": true
     },
     {
-        "productId": 66,
+        "id": 66,
         "name": "Electric Kettle",
         "price": 29.99,
         "category": "Home & Kitchen",
@@ -727,7 +727,7 @@
         "featured": false
     },
     {
-        "productId": 67,
+        "id": 67,
         "name": "Microwave Oven",
         "price": 99.99,
         "category": "Home & Kitchen",
@@ -738,7 +738,7 @@
         "featured": false
     },
     {
-        "productId": 68,
+        "id": 68,
         "name": "Food Storage Containers",
         "price": 24.99,
         "category": "Home & Kitchen",
@@ -749,7 +749,7 @@
         "featured": false
     },
     {
-        "productId": 69,
+        "id": 69,
         "name": "Utensil Set",
         "price": 19.99,
         "category": "Home & Kitchen",
@@ -760,7 +760,7 @@
         "featured": true
     },
     {
-        "productId": 70,
+        "id": 70,
         "name": "Dining Set",
         "price": 149.99,
         "category": "Home & Kitchen",
@@ -771,7 +771,7 @@
         "featured": false
     },
     {
-        "productId": 71,
+        "id": 71,
         "name": "Casserole Dish",
         "price": 34.99,
         "category": "Home & Kitchen",
@@ -782,7 +782,7 @@
         "featured": false
     },
     {
-        "productId": 72,
+        "id": 72,
         "name": "Cutting Board Set",
         "price": 29.99,
         "category": "Home & Kitchen",
@@ -793,7 +793,7 @@
         "featured": false
     },
     {
-        "productId": 73,
+        "id": 73,
         "name": "Canister Set",
         "price": 49.99,
         "category": "Home & Kitchen",
@@ -804,7 +804,7 @@
         "featured": false
     },
     {
-        "productId": 74,
+        "id": 74,
         "name": "Glassware Set",
         "price": 39.99,
         "category": "Home & Kitchen",
@@ -815,7 +815,7 @@
         "featured": false
     },
     {
-        "productId": 75,
+        "id": 75,
         "name": "Bakeware Set",
         "price": 79.99,
         "category": "Home & Kitchen",
@@ -826,7 +826,7 @@
         "featured": true
     },
     {
-        "productId": 76,
+        "id": 76,
         "name": "Electric Mixer",
         "price": 59.99,
         "category": "Home & Kitchen",
@@ -837,7 +837,7 @@
         "featured": true
     },
     {
-        "productId": 77,
+        "id": 77,
         "name": "Ice Cream Maker",
         "price": 49.99,
         "category": "Home & Kitchen",
@@ -848,7 +848,7 @@
         "featured": true
     },
     {
-        "productId": 78,
+        "id": 78,
         "name": "Serving Tray",
         "price": 19.99,
         "category": "Home & Kitchen",
@@ -859,7 +859,7 @@
         "featured": false
     },
     {
-        "productId": 79,
+        "id": 79,
         "name": "Spice Rack",
         "price": 24.99,
         "category": "Home & Kitchen",
@@ -870,7 +870,7 @@
         "featured": true
     },
     {
-        "productId": 80,
+        "id": 80,
         "name": "Kitchen Scale",
         "price": 14.99,
         "category": "Home & Kitchen",
@@ -881,7 +881,7 @@
         "featured": false
     },
     {
-        "productId": 81,
+        "id": 81,
         "name": "Tea Kettle",
         "price": 29.99,
         "category": "Home & Kitchen",
@@ -892,7 +892,7 @@
         "featured": true
     },
     {
-        "productId": 82,
+        "id": 82,
         "name": "Wine Glasses",
         "price": 29.99,
         "category": "Home & Kitchen",
@@ -903,7 +903,7 @@
         "featured": true
     },
     {
-        "productId": 83,
+        "id": 83,
         "name": "Dish Rack",
         "price": 34.99,
         "category": "Home & Kitchen",
@@ -914,7 +914,7 @@
         "featured": false
     },
     {
-        "productId": 84,
+        "id": 84,
         "name": "Apron",
         "price": 19.99,
         "category": "Home & Kitchen",
@@ -925,7 +925,7 @@
         "featured": false
     },
     {
-        "productId": 85,
+        "id": 85,
         "name": "Kitchen Timer",
         "price": 9.99,
         "category": "Home & Kitchen",
@@ -936,7 +936,7 @@
         "featured": false
     },
     {
-        "productId": 86,
+        "id": 86,
         "name": "Mixing Bowls Set",
         "price": 29.99,
         "category": "Home & Kitchen",
@@ -947,7 +947,7 @@
         "featured": true
     },
     {
-        "productId": 87,
+        "id": 87,
         "name": "Measuring Cup Set",
         "price": 14.99,
         "category": "Home & Kitchen",
