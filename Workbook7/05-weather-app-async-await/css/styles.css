@@ -1,0 +1,46 @@
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #ededed;
+}
+
+.container {
+    background-color: white;
+    min-height: 100vh;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+}
+
+.split-container {
+    display: flex;
+    gap:15px;
+}
+
+.split-container > div {
+    min-height: 100vh;
+}
+
+.split-left {
+    width: 25%;
+}
+
+.split-right {
+    width: 75%;
+}
+
+.city-button {
+    text-align: left !important;
+}
+
+.card-body {
+    display: flex !important;
+    gap: 10px;
+}
+.forecast-data {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5px;
+}
+.forecast-value {
+    font-weight: 700;
+}
