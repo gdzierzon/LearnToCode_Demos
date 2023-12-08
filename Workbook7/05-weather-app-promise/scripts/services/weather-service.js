@@ -7,10 +7,10 @@ class WeatherService {
         const url = `${this.baseUrl}/points/${lat},${lng}`
 
         return fetch(url).then(response => response.json())
-        .then(data => {
-            return this.getForecast(data.properties.forecast)
-        })
-    }
+                         .then(data => {
+                            return this.getForecast(data.properties.forecast)
+                         })
+                    }
 
     getForecast(url) 
     {

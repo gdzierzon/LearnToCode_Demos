@@ -33,7 +33,11 @@ function searchCities()
                .then(cities => {
                     cityListContainer.innerHTML = ''
 
-                    cities.forEach(displayCity);
+                    // cities.forEach(displayCity); // shorthand for the forEach below
+
+                    cities.forEach(city => {
+                        displayCity(city)
+                    });
                })
         
 }
@@ -59,6 +63,7 @@ function displayCity(city) {
 
 function getForecast(event){
 
+    // event.target = the button that was clicked
     const data = event.target.dataset
     console.log(data.lat, data.lng);
 
