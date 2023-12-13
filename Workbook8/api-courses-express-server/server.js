@@ -24,6 +24,8 @@ app.get("/api/courses", function (req, res) {
     console.log("LOG: Returned courses -> ");
     console.log(data);
 
+    res.setHeader("Content-type", "application/json")
+    // sends the array of courses back to the client AS JSON
     res.end(JSON.stringify(data));
 });
 
@@ -197,4 +199,8 @@ app.delete("/api/courses/:id", function (req, res) {
 let server = app.listen(8081, function () {
     let port = server.address().port;
     console.log("LOG: App listening at port %s", port);
+    console.log("");
+    console.log("Endpoints:");
+    console.log("http://localhost:8081/api/courses");
+    console.log("");
 });
