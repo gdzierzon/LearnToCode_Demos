@@ -197,4 +197,7 @@ app.delete("/api/courses/:id", function (req, res) {
 let server = app.listen(8081, function () {
     let port = server.address().port;
     console.log("LOG: App listening at port %s", port);
+    console.log();
+    console.log("Services");
+    console.log("http://localhost:8081/api/courses")
 });
