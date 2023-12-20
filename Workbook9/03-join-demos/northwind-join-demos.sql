@@ -28,3 +28,5 @@ INNER JOIN categories AS cat
 ORDER BY c.CompanyName
 	, cat.CategoryName
 ;
+
+
