@@ -11,8 +11,8 @@ const userController = require("../controllers/user.controller")
 router.post("/", userController.createUser)
 
 //get route to return all users (requires auth)
-// router.get("/", validateJwtMiddleware, userController.getUsers)
-router.get("/", userController.getUsers)
+router.get("/", validateJwtMiddleware, userController.getUsers)
+// router.get("/", userController.getUsers)
 
 //get route to return a specific users (requires auth)
 router.get("/:username", validateJwtMiddleware, userController.getUser)
