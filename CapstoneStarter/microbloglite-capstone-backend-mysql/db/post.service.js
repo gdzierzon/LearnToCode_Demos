@@ -18,11 +18,9 @@ class PostService {
 
         posts = [...posts]
 
-        posts.forEach(async (post) => {
-
+        for(let post of posts) {
             post.likes = await likeService.getByPostId(post._id)
-            
-        });
+        }
 
         return posts
     }
